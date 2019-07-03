@@ -9,6 +9,7 @@ A slack bot that tells you if a website goes down, and when it comes back.
   * The URL to check
   * The delay between checks
   * The threshold number of times that a URL must be down before reporting it.
+* Run a new container for each URL to check. Each container runs continuously.
 
 ## Example:
 
