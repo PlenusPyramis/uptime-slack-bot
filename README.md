@@ -5,7 +5,7 @@ A slack bot that tells you if a website goes down, and when it comes back.
 * Create a Slack app - https://api.slack.com/apps
 * Enable incoming webhook
 * Copy the webhook URL and bind to an environment variable called `SLACK_WEBHOOK` (see below).
-* Run the docker container with the SLACK_WEBHOOK and three additional arguments:
+* Run the docker container with the `SLACK_WEBHOOK` and three additional arguments:
   * The URL to check
   * The delay between checks
   * The threshold number of times that a URL must be down before reporting it.
