@@ -2,6 +2,8 @@
 
 A slack bot that tells you if a website goes down, and when it comes back.
 
+![uptime.jpg](uptime.jpg)
+
 * Create a Slack app - https://api.slack.com/apps
 * Enable incoming webhook
 * Copy the webhook URL and bind to an environment variable called `SLACK_WEBHOOK` (see below).
